@@ -1,0 +1,11 @@
+{
+  "name": "autopatch-benchmark-bugs",
+  "version": "1.0.0",
+  "description": "Seeded benchmark suite of software flaws for AutoPatch verification",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["benchmark", "sbfl", "bugs", "security"],
+  "author": "Tajesvi-kumar",
+  "license": "MIT"
+}
