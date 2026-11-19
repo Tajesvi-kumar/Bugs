@@ -23,6 +23,10 @@ class PaymentLedger:
             import threading
             self._lock = threading.Lock()
         with self._lock:
+            if not hasattr(self, "_lock"):
+            import threading
+            self._lock = threading.Lock()
+        with self._lock:
             current_balance = self.balances.get(from_acc, 0.0)
 
         # Check balance
